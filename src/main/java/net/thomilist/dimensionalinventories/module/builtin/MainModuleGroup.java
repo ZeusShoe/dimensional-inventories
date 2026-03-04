@@ -9,6 +9,7 @@ import net.thomilist.dimensionalinventories.module.builtin.legacy.status.StatusM
 import net.thomilist.dimensionalinventories.module.builtin.pool.DimensionPoolConfigModule;
 import net.thomilist.dimensionalinventories.module.builtin.shoulderentity.ShoulderEntityModule;
 import net.thomilist.dimensionalinventories.module.builtin.status.StatusModule;
+import net.thomilist.dimensionalinventories.module.builtin.travelersbackpack.TravelersBackpackModule;
 
 public final class MainModuleGroup
     extends ModuleGroup
@@ -29,6 +30,7 @@ public final class MainModuleGroup
             DimensionPoolConfigModule.class,
             GameModeModule.class,
             InventoryModule.class,
+            TravelersBackpackModule.class,
             StatusModule.class,
             ShoulderEntityModule.class
         );
